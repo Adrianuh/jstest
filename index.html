@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<form>
+<input id="textbox" type="text">
+<input id="submitter" type="button" onclick="changeColor()" value="submit">
+</form>
+</body>
+<script>
+function changeColor(){
+	var colorOutput = document.getElementById("textbox").value
+	document.body.style.backgroundColor = colorOutput;
+}	
+
+</script>
+</html>
+
